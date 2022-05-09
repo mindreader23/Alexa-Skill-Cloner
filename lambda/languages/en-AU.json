@@ -1,0 +1,89 @@
+{
+    "SKILL_NAME": "the Dabble Lab Twilio Example Template",
+    "WELCOME": [
+      "Welcome to {}. To start calling a number, you need to save the receivers phone number as a contact. Please tell me a phone number that you would like to save."
+    ],
+    "WELCOME_REPROMPT": [
+      "Please tell me a phone number that you would like to save."
+    ],
+    "WELCOME_BACK": [
+      "Welcome to {}. Would you like to save a new contact or call a number?"
+    ],
+    "WELCOME_BACK_REPROMPT": [
+      "Would you like to save a new contact or call a number?"
+    ],
+    "PHONE_NUMBER_CONFIRMED": [
+      "Okay. What is the name of the contact?",
+      "Okay. What should I name this contact?",
+      "Okay. By what name should I save this contact?"
+    ],
+    "PHONE_NUMBER_CONFIRMED_REPROMPT": [
+      "What is the name of the contact?"
+    ],
+    "PHONE_NUMBER_UNCONFIRMED": [
+      "I couldn't understand the phone number. Can you please repeat it?"
+    ],
+    "PHONE_NUMBER_UNCONFIRMED_REPROMPT": [
+      "Please repeat the phone number that you wish to save."
+    ],
+    "CONTACT_SAVED": [
+      "Thanks. I have successfully saved the contact and you can now make a call to it. What would you like to do? Save another contact or ring a contact?"
+    ],
+    "CONTACT_SAVED_REPROMPT": [
+      "Would you like to save another contact or call a contact?"
+    ],
+    "CONTACT_NOT_SAVED": [
+      "Sorry, I couldn't understand the name. Can you please repeat that?"
+    ],
+    "CONTACT_NOT_SAVED_REPROMPT": [
+      "Please repeat the name of the contact."
+    ],
+    "SAVE_NEW_CONTACT": [
+      "Sure. Please tell me the phone number that you want to save."
+    ],
+    "SAVE_NEW_CONTACT_REPROMPT": [
+      "Please tell me the phone number that you want to save."
+    ],
+    "CALL_PHONE": [
+      "Whose phone would you like to ring?"
+    ],
+    "CALL_PHONE_REPROMPT": [
+      "Whose phone would you like to ring?"
+    ],
+    "RINGING_PHONE": [
+      "I'm ringing the phone right now. <break time='10s'/>What would you like to do now?"
+    ],
+    "RINGING_PHONE_REPROMPT": [
+      "What would you like to do now?"
+    ],
+    "CONTACT_NOT_FOUND": [
+      "Sorry, I could not find any contact by that name. Please provide a valid contact name."
+    ],
+    "CONTACT_NOT_FOUND_REPROMPT": [
+      "Please provide a valid contact name."
+    ],
+    "COULDNT_RING_PHONE": [
+      "Sorry, there was an error while trying to call the number. Please specify the contact name again to continue."
+    ],
+    "COULDNT_RING_PHONE_REPROMPT": [
+      "Please specify the contact name again to ring the phone."
+    ],
+    "HELP": [
+      "This is the help prompt."
+    ],
+    "HELP_REPROMPT": [
+      "This is the help reprompt."
+    ],
+    "FALLBACK": [
+      "Sorry, I didn't understand that. Can you please repeat?"
+    ],
+    "FALLBACK_REPROMPT": [
+      "Can you please repeat?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Good bye",
+      "Okay. I'll be here if you need me."
+    ],
+    "ERROR": "Sorry, I wasn't able to handle your last request. Could you say that again?",
+    "ERROR_REPROMPT": "Could you say that again?"
+}

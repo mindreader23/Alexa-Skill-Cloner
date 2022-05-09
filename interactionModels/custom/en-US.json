@@ -1,0 +1,132 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "template sixty",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "ChooseContactIntent",
+          "slots": [
+            {
+              "name": "recipient_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "call {recipient_name} number",
+            "ring {recipient_name} number",
+            "ring {recipient_name}",
+            "ring {recipient_name} phone",
+            "make a call to {recipient_name}",
+            "call {recipient_name} cell phone",
+            "call {recipient_name}",
+            "call {recipient_name} phone"
+          ]
+        },
+        {
+          "name": "SaveNewContactIntent",
+          "slots": [],
+          "samples": [
+            "save another one",
+            "save another phone number",
+            "save another contact",
+            "add new contact to the phonebook",
+            "add another phone number",
+            "add new phone number",
+            "add new contact to the database",
+            "add a new contact to the list",
+            "I want to add a new contact",
+            "add new contact",
+            "add a new contact",
+            "save new contact"
+          ]
+        },
+        {
+          "name": "CallPhoneIntent",
+          "slots": [],
+          "samples": [
+            "ring a phone",
+            "call a phone",
+            "call a number",
+            "call a contact",
+            "ring a contact",
+            "ring my phone",
+            "call my phone",
+            "call the phone",
+            "ring the phone"
+          ]
+        },
+        {
+          "name": "PhoneNumberIsIntent",
+          "slots": [
+            {
+              "name": "phone_number",
+              "type": "AMAZON.PhoneNumber"
+            }
+          ],
+          "samples": [
+            "number is {phone_number}",
+            "{phone_number}",
+            "the contact number is {phone_number}",
+            "the number is {phone_number}",
+            "the phone number is {phone_number}"
+          ]
+        },
+        {
+          "name": "TheNameIsIntent",
+          "slots": [
+            {
+              "name": "contact_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "save the contact by the name {contact_name}",
+            "the contact name is {contact_name}",
+            "it is {contact_name}",
+            "name is {contact_name}",
+            "the name of the contact is {contact_name}",
+            "save it by the name {contact_name}",
+            "her name is {contact_name}",
+            "his name is {contact_name}",
+            "the name is {contact_name}"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "3"
+}
