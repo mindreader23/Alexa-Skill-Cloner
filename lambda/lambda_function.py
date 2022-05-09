@@ -22,8 +22,8 @@ import os
 import boto3
 
 # Establish connection with Twilio API
-account_sid = 'ACdc6923347e70e753472b33613390f341'
-auth_token = '37363e766e3c88844adc4ee83da682cc'
+account_sid = 'ACa0676542a80cfe08bf7295c9653cc38f'
+auth_token = '51ea2e6ddf5079d71b04f5b93ee9cf82'
 callers_phone_number = '+14802372086'
 client = Client(account_sid, auth_token)
 
